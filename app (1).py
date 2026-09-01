@@ -579,7 +579,7 @@ def clean_and_format(text):
 # AI SETUP
 # =========================================================
 load_dotenv()
-api = os.getenv("MISTRAL_API_KEY")
+api = os.getenv("SA5kHI8Jnoxm0XM9XXIsHza1FwfPZnD2")
 
 if not api:
     st.error("🚫 **MISTRAL_API_KEY পাওয়া যায়নি।** অনুগ্রহ করে আপনার `.env` ফাইলে এটি যুক্ত করুন এবং অ্যাপটি রিস্টার্ট করুন।")
